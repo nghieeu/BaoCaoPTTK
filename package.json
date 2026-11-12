@@ -1,0 +1,16 @@
+{
+  "name": "restman",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Quản lý nhà hàng RestMan với backend Node.js và database SQLite.",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.cjs",
+    "db:init": "node scripts/database.cjs init",
+    "db:info": "node scripts/database.cjs info",
+    "db:backup": "node scripts/database.cjs backup"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
