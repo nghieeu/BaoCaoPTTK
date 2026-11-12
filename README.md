@@ -82,8 +82,6 @@ restman/
 └── .env.example              Mẫu cấu hình tùy chọn
 ```
 
-`.openai` là cấu hình website tĩnh của bản cũ, không dùng để chạy backend Node.js/SQLite này. Không cần tải hoặc xuất bản ứng dụng để chạy cục bộ.
-
 ## Lệnh database và kiểm thử
 
 ```sh
